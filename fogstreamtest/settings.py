@@ -116,8 +116,8 @@ USE_TZ = True
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.yandex.ru'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'qarixq@yandex.ru'
-EMAIL_HOST_PASSWORD = 'plokijuhyg'
+EMAIL_HOST_USER = ''  # make your email adress
+EMAIL_HOST_PASSWORD = ''  # make your password for email
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.9/howto/static-files/

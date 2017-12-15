@@ -35,7 +35,7 @@ def logout(request):
 def send_email(request):
     to_email = request.POST.get('email', '')
     message = request.POST.get('message', '')
-    from_email = 'qarixq@yandex.ru'
+    from_email = '' # make your email adress
     mail = Message_db()
     mail.msg_message = message
     mail.msg_email = to_email

@@ -8,5 +8,12 @@ Run page-admin > http://127.0.01:8000/admin/
 username: admin
 password: adminadmin
 
+>>> in settings.py :
+make your email adress: EMAIL_HOST_USER = ""
+make your password for email: EMAIL_HOST_PASSWORD = ""
+
+>>> in views.py :
+make your email adress in 'def send_email()': from_email = ""
+
 >>> проект не ипользует асинхронные запросы на валидацию и отправку данных;
 сообщение отправляется на указанный адрес эл. почты;
