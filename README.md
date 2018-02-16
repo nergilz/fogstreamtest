@@ -13,7 +13,7 @@ fogstreamtest/settings.py
 
 + настройте хост для отправки сообщений:
 
-```
+```python
 EMAIL_USE_TLS = True
 EMAIL_HOST = ""
 EMAIL_PORT = 587
